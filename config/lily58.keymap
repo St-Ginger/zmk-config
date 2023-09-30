@@ -14,7 +14,7 @@
 #define RAISE   2
 
 &mt {
-    tapping-term-ms = <300>;
+    tapping-term-ms = <350>;
 };
 
 / {
@@ -33,7 +33,7 @@
 &kp TAB     &kp Q  &kp W  &kp E    &kp R    &kp T                                           &kp Y      &kp U     &kp I      &kp O    &kp P     &kp DEL
 &kp LSHFT   &kp A  &kp S  &kp D    &kp F    &kp G                                           &kp H      &kp J     &kp K      &kp L    &kp SEMI  &mt RSHIFT SQT
 &kp LCTL    &kp Z  &kp X  &kp C    &kp V    &kp B      &kp LBKT                 &kp RBKT    &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                        &mo RAISE  &kp LALT &kp LCTL  &mt LCTL SPACE             &lt LOWER BSPC  &kp ENTER  &kp RGUI  &kp C_PP
+                        &mo RAISE  &kp LGUI &kp LALT  &mt LCTL SPACE             &lt LOWER BSPC  &kp ENTER  &kp RGUI  &kp C_PP
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
