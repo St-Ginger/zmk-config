@@ -13,6 +13,9 @@
 #define LOWER   1
 #define RAISE   2
 
+tapping-term-ms = <180>
+
+
 / {
     keymap {
         compatible = "zmk,keymap";
