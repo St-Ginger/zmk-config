@@ -15,8 +15,7 @@
 
 / {
     behaviors {
-            tapping-term-ms = <170>;
-            quick-tap-ms = <110>;
+            tapping-term-ms = <140>;
         };
     };
 
