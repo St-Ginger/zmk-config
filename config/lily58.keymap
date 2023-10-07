@@ -13,9 +13,20 @@
 #define LOWER   1
 #define RAISE   2
 
+
 &mt {
-    tapping-term-ms = <350>;
+    tapping-term-ms = <180>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <110>;
+    global-quick-tap;
 };
+
+&lt {
+    tapping-term-ms = <180>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <110>;
+};
+
 
 / {
     keymap {
