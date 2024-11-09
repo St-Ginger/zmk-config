@@ -64,7 +64,7 @@
             bindings = <
 &kp UNDER  &kp EXCL          &kp DQT           &kp POUND         &kp DLLR     &kp PRCNT                      &kp CARET      &kp AMPS        &kp STAR    &kp LPAR     &kp RPAR  &kp PLUS
 &kp ESC    &trans            &trans            &trans            &trans       &trans                         &kp C_VOL_DN   &kp C_VOL_UP    &trans      &trans       &trans    &trans
-&trans     &kp UNDER         &kp PLUS          &kp HASH          &kp AT       &trans                         &mkp MB2       &kp LEFT        &kp UP      &kp DOWN     &kp RIGHT &trans
+&trans     &kp UNDER         &kp PLUS          &kp HASH          &kp AT       &trans                         &kp K_CMENU    &kp LEFT        &kp UP      &kp DOWN     &kp RIGHT &trans
 &trans     &trans            &trans            &trans            &trans       &trans    &kp C_PP   &trans    &kp HOME       &kp END         &kp PG_UP   &kp PG_DN    &kp BSLH  &trans 
                                                &trans            &trans       &trans    &trans     &trans    &trans         &trans          &trans
             >;
